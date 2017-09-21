@@ -9,12 +9,12 @@ public class LabA5 {
         Integer x = Integer.parseInt(args[0]);
         Integer z = ((x << 21) >>> 31);
 
-        System.out.println(z);
+        System.out.println("Using logical shifts: " + z);
 
         Integer mask = 1024;
         Integer y = x & mask;
         y = (y >> 10);
-        System.out.println(y);
+        System.out.println("Using mask method: " + y);
 
     }
 }
