@@ -10,7 +10,15 @@ public class LabA3 {
         Integer x = Integer.parseInt(args[0]);
         Integer y = Integer.parseInt(args[1]);
 
-        System.out.printf
+        Integer z = x & y;
+        System.out.println("x & y = " + z);
+        z = x | y;
+        System.out.println("x | y = " + z);
+        z = x ^ y;
+        System.out.println("x ^ y = " + z);
+        z = ~x;
+        System.out.println("~x = " + z);
+
     }
 }
 
